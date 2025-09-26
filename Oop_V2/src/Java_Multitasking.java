@@ -47,6 +47,14 @@ class MyThread extends Thread{
                 Thread.sleep(1000);
 
                 System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
+                System.out.println("Kuyyyyyy");
 
             }catch (InterruptedException e){
             }
