@@ -45,6 +45,7 @@ class MyThread extends Thread{
         while(true){
             try{
                 Thread.sleep(1000);
+                System.out.println("00");
             }catch (InterruptedException e){
             }
         }
