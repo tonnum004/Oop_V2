@@ -1,4 +1,4 @@
-import javax.imageio.ImageIO;
+import  javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -29,7 +29,7 @@ class background extends JPanel {
             bg = ImageIO.read(file);
             meteorFile0 = ImageIO.read(meteorFile);
         }catch (Exception e){
-            throw new RuntimeException("ไม่พบรูปหรืออ่านรูปไม่ได้: " + file, e);
+            throw new RuntimeException("ไม่พบรูปหรืออ่านรูปไม่ได้ : " + file, e);
         }
         setPreferredSize(new Dimension(bg.getWidth(), bg.getHeight()));
     }
@@ -45,7 +45,6 @@ class MyThread extends Thread{
         while(true){
             try{
                 Thread.sleep(1000);
-                System.out.println("00");
             }catch (InterruptedException e){
             }
         }
