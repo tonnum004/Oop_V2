@@ -45,17 +45,6 @@ class MyThread extends Thread{
         while(true){
             try{
                 Thread.sleep(1000);
-
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-                System.out.println("Kuyyyyyy");
-
             }catch (InterruptedException e){
             }
         }
